@@ -1,0 +1,47 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El Ratón – Cheo Feliciano</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="../../logo/logo-salsa.png" alt="Logo do grupo de salsa">
+      <h1>🐹 El Ratón 🎶</h1>
+      <p>Cheo Feliciano</p>
+    </header>
+
+    <section class="instrumentos">
+      <h2>Qual instrumento cê quer tocar?:</h2>
+      <a class="btn-letra" href="congas_raton.html">🪘 Conga</a>
+  <a class="btn-letra" href="bongo_raton.html">🪘🪘 Bongo</a>
+  <a class="btn-letra" href="piano_raton.html">🎹 Piano</a>
+  <a class="btn-letra" href="baixo_raton.html">🎸 Baixo</a>
+  <a class="btn-letra" href="metais_raton.html">🎺🎷 Metais</a>
+    </section>
+
+    <section class="letra">
+  <h2>📄 Letra da Música</h2>
+ <a class="btn-letra" href="../../docs/El_ratón_Cheo_Feliciano.pdf" target="_blank" download>
+  📥 Ver e baixar a letra (PDF)
+</a>
+</section>
+
+
+    <a href="../../index.html" class="btn-voltar">← Voltar ao Repertório</a>
+  </div>
+
+  <audio id="audioPlayer" controls style="display:none;"></audio>
+  <script>
+    function tocar(nome) {
+      const audio = document.getElementById("audioPlayer");
+      audio.src = `../../audios/${nome}.mp3`;
+      audio.style.display = "block";
+      audio.play();
+    }
+  </script>
+</body>
+</html>
+
+

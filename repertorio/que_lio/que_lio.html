@@ -1,0 +1,50 @@
+<!-- que_lio.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Que Lío – Willie Colón</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="../../logo/logo-salsa.png" alt="Logo do grupo de salsa">
+      <h1>🥴 Que Lío 🎶</h1>
+      <p>Willie Colón</p>
+    </header>
+
+    <section class="instrumentos">
+      <h2>Qual instrumento cê quer tocar?:</h2>
+      <div class="player">
+  <a class="btn-letra" href="congas_lio.html">🪘Conga</a>
+  <a class="btn-letra" href="bongo_lio.html">🪘🪘Bongo</a>
+  <a class="btn-letra" href="piano_lio.html">🎹Piano</a>
+  <a class="btn-letra" href="baixo_lio.html">🎸Baixo</a>
+  <a class="btn-letra" href="metais_lio.html">🎺🎷Metais</a>
+  
+</div>
+
+    </section>
+
+    <section class="letra">
+      <h2>📄 Letra da Música</h2>
+      <p><a href="../../docs/Que_Lio_Héctor_Lavoe.pdf" target="_blank">Clique aqui para ver a letra em PDF</a></p>
+    </section>
+
+    <a href="../../index.html" class="btn-voltar">← Voltar ao Repertório</a>
+  </div>
+  
+
+  <audio id="audioPlayer" controls style="display:none;"></audio>
+  <script>
+    function tocar(nome) {
+      const audio = document.getElementById("audioPlayer");
+      audio.src = `../../audios/${nome}.mp3`;
+      audio.style.display = "block";
+      audio.play();
+    }
+  </script>
+</body>
+</html>
+
