@@ -1,0 +1,32 @@
+{
+  "que_lio": {
+    "titulo": "Que Lío",
+    "instrumentos": {
+      "congas": {
+        "audio": "audios/congas_que_lio.mp3",
+        "video": "videos/demo_conga_que_lio.mp4",
+        "partitura": "docs/Que_Lio_Hector_Lavoe.pdf"
+      },
+      "piano": {
+        "audio": "audios/piano_que_lio.mp3",
+        "video": "videos/demo_piano_que_lio.mp4",
+        "partitura": "docs/partitura_piano_que_lio.pdf"
+      }
+    }
+  },
+  "el_raton": {
+    "titulo": "El Ratón",
+    "instrumentos": {
+      "congas": {
+        "audio": "audios/congas_el_raton.mp3",
+        "video": "videos/demo_conga_el_raton.mp4",
+        "partitura": "docs/El_raton_Cheo_Feliciano.pdf"
+      },
+      "piano": {
+        "audio": "audios/piano_el_raton.mp3",
+        "video": "videos/demo_piano_el_raton.mp4",
+        "partitura": "docs/partitura_piano_el_raton.pdf"
+      }
+    }
+  }
+}

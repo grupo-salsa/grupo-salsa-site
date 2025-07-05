@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{instrumento}} – {{musica}}</title>
+  <link rel="stylesheet" href="../../../style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{instrumento}} – {{musica}}</title>
+  <link rel="stylesheet" href="../../../style.css" />
+</head>
+    <section class="execucao">
+      <h2>🎧 Execução</h2>
+      <audio controls>
+        <source src="../../../{{audio}}" type="audio/mpeg" />
+      </audio>
+    </section>
+
+    <section class="video">
+      <h2>🎬 Vídeo</h2>
+      <video controls width="100%">
+        <source src="../../../{{video}}" type="video/mp4" />
+      </video>
+    </section>
+
+    <section class="partitura">
+      <h2>📄 Partitura</h2>
+      <a class="btn-letra" href="../../../{{partitura}}" download target="_blank">
+        📥 Ver e baixar partitura (PDF)
+      </a>
+    </section>
+
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="../../../index.html" class="btn-voltar">← Voltar ao Repertório</a>
+    </div>
+  </div>
+</body>
+</html>
