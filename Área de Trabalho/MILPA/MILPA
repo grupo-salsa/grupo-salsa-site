@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto MILPA</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background-color: #fdfaf6; }
+    header { background-color: #4b3e2a; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #7a6240; padding: 10px; display: flex; flex-wrap: wrap; justify-content: center; }
+    nav a { color: white; margin: 5px 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 20px; }
+    section { margin-bottom: 40px; }
+    h2 { color: #4b3e2a; }
+    .hidden { display: none; }
+    footer { background-color: #4b3e2a; color: white; text-align: center; padding: 15px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Proyecto MILPA</h1>
+    <p>Memoria, Identidad y Culturas Populares de Abya Yala</p>
+  </header>
+
+  <nav>
+    <a href="#" onclick="showSection('inicio')">Inicio</a>
+    <a href="#" onclick="showSection('sobre')">Sobre el Proyecto</a>
+    <a href="#" onclick="showSection('integrantes')">Integrantes</a>
+    <a href="#" onclick="showSection('metodologia')">Cómo Trabajamos</a>
+    <a href="#" onclick="showSection('blog')">Blog</a>
+    <a href="#" onclick="showSection('expresiones')">Expresiones</a>
+    <a href="#" onclick="showSection('talleres')">Talleres</a>
+    <a href="#" onclick="showSection('glosario')">Glosario</a>
+    <a href="#" onclick="showSection('red')">Red Latinoamericana</a>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Aquí estarán las últimas noticias y actualizaciones del Proyecto MILPA.</p>
+    </section>
+
+    <section id="sobre" class="hidden">
+      <h2>Sobre el Proyecto</h2>
+      <p>¿Qué es el Proyecto MILPA? Un espacio de vivencias, aprendizaje y memoria sobre las culturas populares de Abya Yala.</p>
+    </section>
+
+    <section id="integrantes" class="hidden">
+      <h2>Integrantes</h2>
+      <p>Presentación de los miembros actuales y antiguos del proyecto.</p>
+    </section>
+
+    <section id="metodologia" class="hidden">
+      <h2>Cómo Trabajamos</h2>
+      <p>Explicación de la metodología de trabajo: intención, extensión y hojas de memoria.</p>
+    </section>
+
+    <section id="blog" class="hidden">
+      <h2>Blog: "Ideas que nos surean"</h2>
+      <p>Textos, reflexiones y artículos sobre las culturas que atraviesan el MILPA.</p>
+    </section>
+
+    <section id="expresiones" class="hidden">
+      <h2>Expresiones y Celebraciones</h2>
+      <p>Entradas temáticas sobre prácticas culturais e folhas de memória.</p>
+    </section>
+
+    <section id="talleres" class="hidden">
+      <h2>Talleres y Presentaciones</h2>
+      <p>Relatos, fotos y registros de talleres realizados por el grupo.</p>
+    </section>
+
+    <section id="glosario" class="hidden">
+      <h2>Glosario</h2>
+      <p>Listado de conceptos clave con redirección a definiciones y artículos.</p>
+    </section>
+
+    <section id="red" class="hidden">
+      <h2>Red Latinoamericana</h2>
+      <p>Contactos e información de personas y comunidades con las que MILPA trabaja en red.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Proyecto MILPA. Memorias y culturas de Abya Yala.</p>
+  </footer>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll('main section');
+      sections.forEach(section => section.classList.add('hidden'));
+      document.getElementById(id).classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>

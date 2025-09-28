@@ -1,0 +1,86 @@
+dancas_latinas = {
+    "malambo": {
+        "país": "Argentina",
+        "compasso": "6/8",
+        "tipo": "solo",
+        "assunto": ["sapateado", "gauchesco", "masculino"]
+    },
+    "zamba": {
+        "país": "Argentina",
+        "compasso": "6/8",
+        "tipo": "casal",
+        "assunto": ["romance", "lenço"]
+    },
+    "chacarera": {
+        "país": "Argentina",
+        "compasso": "6/8",
+        "tipo": "casal",
+        "assunto": ["folclore", "celebração"]
+    },
+    "saya": {
+        "país": "Bolívia",
+        "compasso": "4/4",
+        "tipo": "coletiva",
+        "assunto": ["afroandino", "resistência"]
+    },
+    "caporales": {
+        "país": "Bolívia",
+        "compasso": "2/4",
+        "tipo": "desfile",
+        "assunto": ["competição", "energia"]
+    },
+    "frevo": {
+        "país": "Brasil",
+        "compasso": "2/4",
+        "tipo": "coletiva",
+        "assunto": ["carnaval", "acrobacia"]
+    },
+    "cueca": {
+        "país": "Chile",
+        "compasso": "6/8",
+        "tipo": "casal",
+        "assunto": ["galanteio", "bandeira"]
+    },
+    "mapalé": {
+        "país": "Colômbia",
+        "compasso": "4/4",
+        "tipo": "coletiva",
+        "assunto": ["afrocolombiana", "ritual"]
+    },
+    "sanjuanito": {
+        "país": "Equador",
+        "compasso": "2/4",
+        "tipo": "coletiva",
+        "assunto": ["festa indígena", "comunitário"]
+    },
+    "polca paraguaia": {
+        "país": "Paraguai",
+        "compasso": "3/4",
+        "tipo": "casal",
+        "assunto": ["romance", "tradição"]
+    },
+    "huayno": {
+        "país": "Peru",
+        "compasso": "2/4",
+        "tipo": "casal",
+        "assunto": ["indígena", "andino"]
+    },
+    "candombe": {
+        "país": "Uruguai",
+        "compasso": "4/4",
+        "tipo": "desfile",
+        "assunto": ["afro", "batuque"]
+    },
+    "tambor": {
+        "país": "Venezuela",
+        "compasso": "6/8",
+        "tipo": "coletiva",
+        "assunto": ["religião", "batuque"]
+    },
+    "chirimilla": {
+        "país": "Colômbia",
+        "compasso": "4/4",
+        "tipo": "coletiva",
+        "assunto": ["ritual", "colheita", "música indígena"]
+    }
+}
